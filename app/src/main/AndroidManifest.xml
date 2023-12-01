@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <queries>
+        <package android:name="com.google.android.gm" />
+    </queries>
+
+    <application
+        android:name=".ExtractMusic.Helper.App"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:extractNativeLibs="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_squre"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".Activity.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Activity.ExtraActivity1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.ExtraActivity2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.ExtraActivity3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.ExtraActivity4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.ExtraActivity5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.LanguageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.LanguageSelectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.CollectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.FeedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.ToolsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.VideoListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.VideoPreviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SpeedUp.SpeedUpVideoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SlowMotion.SlowMotionVideoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TrimVideo.TrimVideoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CropVideo.CropVideoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReverseVideo.ReverseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CompressVideo.CompressVideoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FilterVideo.VideoFilterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ExtractMusic.AudioCutterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ExtractMusic.VideoConverterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ExtractMusic.MusicPreviewActivity"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name=".Activity.FavouriteActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".ExtractMusic.Helper.ConverterService"
+            android:exported="false"
+            android:stopWithTask="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+    </application>
+
+</manifest>

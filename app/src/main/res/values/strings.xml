@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Funny Videos</string>
+
+
+    <string name="str_1">Continue</string>
+    <string name="str_2">Funny Videos</string>
+    <string name="str_3">Funny Videos is India\'s favorite\nvideo <font color="#31E0FF">comedy and download</font>\nvideo &amp; sharing app.</string>
+    <string name="str_4">Comedy Videos</string>
+    <string name="str_5">Our app <font color="#E93364">provides a wide variety</font> of\ncomedy Videos &amp; funny video for\na non-stop entertainment.</string>
+    <string name="str_6">Wedding</string>
+    <string name="str_7">Save funny videos, a funny picture\nand <font color="#FFB433">other memes, GIFs</font> and\nclips as favorites.</string>
+    <string name="str_8">Videos Categories</string>
+    <string name="str_9">Funny Video is the best way to\ncapture and <font color="#2DCC34">share your moments</font>\nwith just a few clicks.</string>
+    <string name="str_10">Videos Categories</string>
+    <string name="str_11">You can find the most exciting,\n<font color="#9872FF">funny, magic videos</font> on comedy\nin Add stickers and filters.</string>
+
+    <string name="str_12">Language</string>
+    <string name="str_13">Settings</string>
+    <string name="str_14">Feedback</string>
+    <string name="str_15">Privacy Policy</string>
+    <string name="str_16">Share App</string>
+    <string name="str_17">Rate Us</string>
+
+    <string name="str_18">Feed</string>
+    <string name="str_19">Collection</string>
+    <string name="str_20">Funny Videos</string>
+    <string name="str_21">Categories</string>
+    <string name="str_22">Funny</string>
+    <string name="str_23">Love</string>
+    <string name="str_24">Powerful Tools</string>
+    <string name="str_25">see all</string>
+    <string name="str_26">Sad</string>
+    <string name="str_27">Kids</string>
+    <string name="str_28">Money</string>
+    <string name="str_29">Wedding</string>
+    <string name="str_30">Birthday</string>
+    <string name="str_31">Animal</string>
+    <string name="str_32">Festival</string>
+    <string name="str_33">Social Media</string>
+    <string name="str_34">Tools</string>
+
+    <string name="str_35">Send Us Some Feedback!</string>
+    <string name="str_36">Do you have a suggestion or found some bug? Let us know in the bellow.</string>
+    <string name="str_37">Describe your idea or issue....</string>
+    <string name="str_38">Send Feedback</string>
+
+    <string name="str_39">Thank you for your support!</string>
+    <string name="str_40">We would be very grateful if you can rate us.</string>
+    <string name="str_41">oh, we’re sorry...</string>
+    <string name="str_42">Your feedback is welcome.</string>
+    <string name="str_43">Much appreciated!</string>
+    <string name="str_44">Your support is our biggest motivation!</string>
+    <string name="str_45">RATE</string>
+
+    <string name="str_46">My Collection</string>
+    <string name="str_47">Delete</string>
+    <string name="str_48">Do you really want to delete the Video?</string>
+    <string name="str_49">Unfavorite Video</string>
+    <string name="str_50">Are you sure Unfavorite video?</string>
+    <string name="str_51">Ok</string>
+    <string name="str_52">Speed Up Video</string>
+    <string name="str_53">Select speed</string>
+    <string name="str_54">Slow Motion Video</string>
+    <string name="str_55">Trim Video</string>
+    <string name="str_56">Crop Video</string>
+    <string name="str_57">Compress Video</string>
+    <string name="str_58">Extract Music</string>
+    <string name="str_59">Format : </string>
+    <string name="str_60">Bitrate : </string>
+    <string name="str_61">Audio Name : </string>
+    <string name="str_62">deleted</string>
+
+    <string name="str_101">No Video Found</string>
+    <string name="str_102">Choose Video</string>
+    <string name="str_103">Reverse Video</string>
+    <string name="str_104">With Audio Reverse</string>
+    <string name="str_105">Without Audio Reverse</string>
+    <string name="str_106">Filter Video</string>
+
+
+    <string name="MainFolderName">Funny Videos</string>
+    <string name="FastMotionVideo">FastMotionVideo</string>
+    <string name="SlowMotionVideo">SlowMotionVideo</string>
+    <string name="VideoCutter">VideoCutter</string>
+    <string name="VideoCroper">VideoCroper</string>
+    <string name="VideoReverse">VideoReverse</string>
+    <string name="VideoCompressor">VideoCompressor</string>
+    <string name="VideoFilter">VideoFilter</string>
+
+
+</resources>
